@@ -35,33 +35,33 @@ const Navbar = () => {
 
           <ul className="flex gap-12">
             <li>
-              <a href="#" className="font-medium  text-sky-500 hover:font-bold">
+              <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold transition-all ">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="font-medium text-sky-500 hover:font-bold">
+              <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold transition-all">
                 Coding
               </a>
             </li>
             <li>
-              <a href="#" className="font-medium text-sky-500 hover:font-bold">
+              <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold transition-all">
                 Robotics
               </a>
             </li>
             <li>
-              <a href="#" className="font-medium text-sky-500 hover:font-bold">
+              <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold transition-all">
                 Partnership
               </a>
             </li>
             <li>
-              <a href="#" className="font-medium text-sky-500 hover:font-bold">
+              <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold transition-all">
                 Event
               </a>
             </li>
           </ul>
 
-          <div className="contact bg-sky-500 text-white py-2 px-5 rounded-full hover:bg-sky-600">
+          <div className="contact bg-primary text-white py-2 px-5 rounded-full hover:bg-darkprimary">
             <a href="#">Contact Me</a>
           </div>
         </div>
