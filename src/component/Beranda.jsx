@@ -44,7 +44,7 @@ const Beranda = () => {
           <a className="text-white bg-primary p-3 rounded-xl"> Kami</a>
         </h1>
         <div className="container mx-auto flex flex-row items-center justify-center">
-          <div className="mitra-box mx-4  ">
+          <div className="mitra-box mx-4">
             <img src={alfikri} alt="" />
           </div>
 

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [scroll, setScroll] = useState(false);
@@ -35,28 +36,39 @@ const Navbar = () => {
 
           <ul className="flex gap-12">
             <li>
-              <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold hover:underline hover:decoration-2 hover:underline-offset-8  transition-all">
+              <a href="" className="font-medium text-lg  text-primary hover:font-extrabold hover:underline hover:decoration-2 hover:underline-offset-8  transition-all">
+                <Link to="/">
                 Home
+                </Link>
+
               </a>
             </li>
             <li>
-              <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold hover:underline hover:decoration-2 hover:underline-offset-8 transition-all">
+              <a href="" className="font-medium text-lg  text-primary hover:font-extrabold hover:underline hover:decoration-2 hover:underline-offset-8 transition-all">
+                <Link to="/Coding">
                 Coding
+                </Link>
               </a>
             </li>
             <li>
               <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold hover:underline hover:decoration-2 hover:underline-offset-8 transition-all">
+                <Link to="/Robotics">
                 Robotics
+                </Link>
               </a>
             </li>
             <li>
               <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold hover:underline hover:decoration-2 hover:underline-offset-8 transition-all">
+                <Link to="/Partnership">
                 Partnership
+                </Link>
               </a>
             </li>
             <li>
               <a href="#" className="font-medium text-lg  text-primary hover:font-extrabold hover:underline hover:decoration-2 hover:underline-offset-8 transition-all">
+                <Link to="/Event">
                 Event
+                </Link>
               </a>
             </li>
           </ul>
